@@ -293,7 +293,7 @@
                                 class="font-bold text-text-light dark:text-text-dark">Albini Francesco</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://www.instagram.com/fran.aalbini20/" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
                                 <a><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
@@ -306,7 +306,7 @@
                                 class="font-bold text-text-light dark:text-text-dark">Alderete Thomas</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://www.instagram.com/thoomas_alderete" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
                                 <a><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
@@ -319,7 +319,7 @@
                                 class="font-bold text-text-light dark:text-text-dark">Ian Basly</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://www.instagram.com/ian_basly07" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
                                 <a><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
@@ -332,8 +332,8 @@
                                 class="font-bold text-text-light dark:text-text-dark">Carrizo Dylan</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
-                                <a><i class="fab fa-github text-xl"></i></a>
+                                <a href="https://www.instagram.com/dyla783n" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://github.com/Dyl8008" target="_blank"><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
                         <div
@@ -345,7 +345,7 @@
                                 class="font-bold text-text-light dark:text-text-dark">Lorenzo Pernet</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://www.instagram.com/tomaslorenzop/" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
                                 <a><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
@@ -358,8 +358,8 @@
                                 class="font-bold text-text-light dark:text-text-dark">Loza Leandro</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
-                                <a><i class="fab fa-github text-xl"></i></a>
+                                <a href="https://www.instagram.com/leandroloza36/" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://github.com/lozalen341" target="_blank"><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
                         <div
@@ -371,8 +371,8 @@
                                 class="font-bold text-text-light dark:text-text-dark">Torrico Fiona</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
-                                <a><i class="fab fa-github text-xl"></i></a>
+                                <a href="https://www.instagram.com/fio_nnaah/" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://github.com/TorricoFiona" target="_blank"><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
                         <div class="bg-card-light dark:bg-card-dark p-4 rounded-xl text-center shadow-sm hover:shadow-lg transition-shadow">
@@ -383,7 +383,7 @@
                                 class="font-bold text-text-light dark:text-text-dark">Milan Facundo</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://www.instagram.com/fac7_m1l4n/" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
                                 <a><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
@@ -394,7 +394,7 @@
                             <h4 class="font-bold text-text-light dark:text-text-dark">Uriel Maza</h4>
                             <div
                                 class="flex justify-center space-x-3 mt-3 text-text-muted-light dark:text-text-muted-dark">
-                                <a><i class="fab fa-instagram text-xl"></i></a>
+                                <a href="https://www.instagram.com/urielmazaa_" target="_blank"><i class="fab fa-instagram text-xl"></i></a>
                                 <a><i class="fab fa-github text-xl"></i></a>
                             </div>
                         </div>
