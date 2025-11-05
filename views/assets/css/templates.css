@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-fondo-principal);
+  color: var(--color-texto-principal);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--color-fondo-tarjeta);
+  border-bottom: 1px solid var(--color-borde);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-section img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.logo-section span {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-texto-principal);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: var(--color-texto-secundario);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: var(--color-primario);
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-fondo-icono);
+  color: var(--color-texto-secundario);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.icon-btn:hover {
+  background: rgba(0, 123, 255, 0.2);
+}
+
+.logout-btn {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.logout-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #dc2626;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-dark));
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+.page-title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: var(--color-texto-principal);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  font-size: 1rem;
+  color: var(--color-texto-secundario);
+}
+
+.template-card {
+  background: var(--color-fondo-tarjeta);
+  border: 2px solid transparent;
+  border-radius: 0.75rem;
+  box-shadow: var(--color-sombra-negra-ligera);
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.template-card:hover {
+  border-color: var(--color-sombra-primaria);
+  transform: translateY(-4px);
+  box-shadow: var(--color-sombra-negra-ligera-lg);
+}
+
+.template-card.selected {
+  border-color: var(--color-primario);
+  box-shadow: 0 0 0 4px var(--color-sombra-primaria);
+}
+
+.btn-generate {
+  background: var(--color-primario);
+  color: white;
+  padding: 0.875rem 2rem;
+  border-radius: 0.75rem;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px var(--color-sombra-hero);
+}
+
+.btn-generate:hover:not(:disabled) {
+  background: var(--color-primario-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px var(--color-sombra-hero);
+}
+
+.btn-generate:disabled {
+  background: var(--color-texto-gris);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.templates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.template-preview {
+  position: relative;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  color: white;
+}
+
+.template-name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.template-description {
+  font-size: 0.875rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.template-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.template-card:hover .template-overlay {
+  opacity: 1;
+}
+
+.preview-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,255,255,0.9);
+  color: var(--color-texto-principal);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.check-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--color-primario);
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.template-card.selected .check-badge {
+  opacity: 1;
+}
